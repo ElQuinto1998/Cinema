@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:i18n="clr-namespace:Practica.Helpers"
+             mc:Ignorable="d"
+             x:Class="Practica.Views.FuncionesPage"
+             Title="{i18n:Translate Funciones}">
+    <ContentPage.Content>
+        <StackLayout x:Name="datos" Padding="5">
+            <ListView  HasUnevenRows="True" BackgroundColor="White"  x:Name="funciones" ItemSelected="cartelera_ItemSelected">
+                <ListView.Header>
+                    <StackLayout>
+                        <Label Text="{Binding Nombre}" TextColor="Black"/>
+                        <Label Text="{Binding FechaEstreno, StringFormat='{0:dd/MM/yyyy}'}" />
+                        <Entry x:Name="cantidadBoletas" Placeholder="{i18n:Translate Cantidad a comprar}"   
+                           HeightRequest="40"/>
+                    </StackLayout>
+                </ListView.Header>
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <Grid>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition />
+                                    <ColumnDefinition  />
+                                </Grid.ColumnDefinitions>
+                                <StackLayout VerticalOptions="FillAndExpand" Padding="5" Grid.Column="0">
+                                    <Label FontSize="17"  Text="{Binding Cinema}" />
+                                    <Label FontSize="12" Text="{Binding Precio, StringFormat='${0}'}" />
+                                </StackLayout>
+                            </Grid>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+            
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

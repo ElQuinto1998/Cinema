@@ -1,0 +1,8 @@
+C:\Movil\Practica\Practica.Xamarin.Domain\bin\Debug\netstandard2.0\Practica.Xamarin.Domain.deps.json
+C:\Movil\Practica\Practica.Xamarin.Domain\bin\Debug\netstandard2.0\Practica.Xamarin.Domain.dll
+C:\Movil\Practica\Practica.Xamarin.Domain\bin\Debug\netstandard2.0\Practica.Xamarin.Domain.pdb
+C:\Movil\Practica\Practica.Xamarin.Domain\obj\Debug\netstandard2.0\Practica.Xamarin.Domain.AssemblyInfoInputs.cache
+C:\Movil\Practica\Practica.Xamarin.Domain\obj\Debug\netstandard2.0\Practica.Xamarin.Domain.AssemblyInfo.cs
+C:\Movil\Practica\Practica.Xamarin.Domain\obj\Debug\netstandard2.0\Practica.Xamarin.Domain.dll
+C:\Movil\Practica\Practica.Xamarin.Domain\obj\Debug\netstandard2.0\Practica.Xamarin.Domain.pdb
+C:\Movil\Practica\Practica.Xamarin.Domain\obj\Debug\netstandard2.0\Practica.Xamarin.Domain.csprojAssemblyReference.cache

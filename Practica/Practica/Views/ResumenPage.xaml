@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:i18n="clr-namespace:Practica.Helpers"
+             mc:Ignorable="d"
+             x:Class="Practica.Views.ResumenPage"
+             Title="{i18n:Translate Resumen compra}">
+    <ContentPage.Content>
+        <StackLayout Orientation="Vertical" Padding="2">
+            <StackLayout x:Name="datos" Orientation="Vertical">
+                <Grid Padding="5" >
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="*" />
+                        <RowDefinition Height="*" />
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="Auto" />
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="*" />
+                    </Grid.ColumnDefinitions>
+                    <Image Source="{Binding Imagen}"
+                        Grid.Row="2"
+                           Grid.Column="2"/>
+                    <Label Grid.RowSpan="3"
+                           Text="Pelicula"
+                           FontAttributes="Bold" />
+                    <Label Grid.Row="2"
+                           Grid.Column="0"
+                           Text="Titulo: "
+                           VerticalOptions="Start" />
+                    <Label Grid.Row="2"
+                           Grid.Column="1"
+                           Text="{Binding Nombre}"
+                           VerticalOptions="End" />
+                    <Label Grid.Row="3"
+                           Grid.Column="0"
+                           Text="Fecha: "
+                           VerticalOptions="Start" />
+                    <Label Grid.Row="3"
+                           Grid.Column="1"
+                           Text="{Binding FechaEstreno, StringFormat='{0:dd/MM/yyyy}'}"
+                           VerticalOptions="End" />
+                </Grid>
+            </StackLayout>
+            <StackLayout x:Name="funcion" Orientation="Vertical">
+                <Grid Padding="5" >
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="*" />
+                        <RowDefinition Height="*" />
+                        <RowDefinition Height="*" />
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="Auto" />
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="*" />
+                    </Grid.ColumnDefinitions>
+                    <Label Grid.RowSpan="3"
+                           Text="Funcion"
+                           FontAttributes="Bold" />
+                    <Label Grid.Row="2"
+                           Grid.Column="0"
+                           Text="Cinema: "
+                           VerticalOptions="Start" />
+                    <Label Grid.Row="2"
+                           Grid.Column="1"
+                           Text="{Binding Cinema}"
+                           VerticalOptions="End" />
+                    <Label Grid.Row="3"
+                           Grid.Column="0"
+                           Text="Sala: "
+                           VerticalOptions="Start" />
+                    <Label Grid.Row="3"
+                           Grid.Column="1"
+                           Text="{Binding Sala}"
+                           VerticalOptions="End" />
+                    <Label Grid.Row="4"
+                           Grid.Column="0"
+                           Text="Ciudad: "
+                           VerticalOptions="Start" />
+                    <Label Grid.Row="4"
+                           Grid.Column="1"
+                           Text="{Binding Ciudad}"
+                           VerticalOptions="End" />
+                </Grid>
+            </StackLayout>
+            <StackLayout Orientation="Vertical" x:Name="tiquetes">
+                <Grid Padding="5" >
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="*" />
+                        <RowDefinition Height="*" />
+                        <RowDefinition Height="*" />
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="Auto" />
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="*" />
+                    </Grid.ColumnDefinitions>
+                    <Label Grid.RowSpan="3"
+                           Text="Tiquetes"
+                           FontAttributes="Bold" />
+                    <Label Grid.Row="2"
+                           Grid.Column="0"
+                           Text="Precio: "
+                           VerticalOptions="Start" />
+                    <Label Grid.Row="2"
+                           Grid.Column="1"
+                           Text="{Binding precio, StringFormat='${0}'}"
+                           VerticalOptions="End" />
+                    <Label Grid.Row="3"
+                           Grid.Column="0"
+                           Text="Cantidad: "
+                           VerticalOptions="Start" />
+                    <Label Grid.Row="3"
+                           Grid.Column="1"
+                           Text="{Binding cantidad}"
+                           VerticalOptions="End" />
+                    <Label Grid.Row="4"
+                           Grid.Column="0"
+                           Text="Total a pagar: "
+                            FontAttributes="Bold"
+                           VerticalOptions="Start" />
+                    <Label Grid.Row="4"
+                           Grid.Column="1"
+                           Text="{Binding total, StringFormat='${0}'}"
+                           VerticalOptions="End" />
+                </Grid>
+            </StackLayout>
+            <Button Text="{i18n:Translate Finalizar compra}" HeightRequest="35" WidthRequest="35"
+                    BackgroundColor="#088da5"
+                    Clicked="Button_Clicked"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
