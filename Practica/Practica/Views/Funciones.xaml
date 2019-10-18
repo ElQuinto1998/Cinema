@@ -14,7 +14,8 @@
                     <StackLayout>
                         <Label Text="{Binding Nombre}" TextColor="Black"/>
                         <Label Text="{Binding FechaEstreno, StringFormat='{0:dd/MM/yyyy}'}" />
-                        <Entry x:Name="cantidadBoletas" Placeholder="{i18n:Translate Cantidad a comprar}"   
+                        <Entry x:Name="cantidadBoletas" Placeholder="{i18n:Translate Cantidad a comprar}"
+                               Keyboard="Numeric"
                            HeightRequest="40"/>
                     </StackLayout>
                 </ListView.Header>

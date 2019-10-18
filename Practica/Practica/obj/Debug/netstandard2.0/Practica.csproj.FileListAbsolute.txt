@@ -30,7 +30,6 @@ C:\Movil\Cinema\Practica\Practica\bin\Debug\netstandard2.0\Practica.pdb
 C:\Movil\Cinema\Practica\Practica\bin\Debug\netstandard2.0\es\Practica.resources.dll
 C:\Movil\Cinema\Practica\Practica\bin\Debug\netstandard2.0\Practica.Xamarin.Domain.dll
 C:\Movil\Cinema\Practica\Practica\bin\Debug\netstandard2.0\Practica.Xamarin.Domain.pdb
-C:\Movil\Cinema\Practica\Practica\obj\Debug\netstandard2.0\Practica.csprojAssemblyReference.cache
 C:\Movil\Cinema\Practica\Practica\obj\Debug\netstandard2.0\Practica.Resourses.AppResources.resources
 C:\Movil\Cinema\Practica\Practica\obj\Debug\netstandard2.0\Practica.Resourses.AppResources.es.resources
 C:\Movil\Cinema\Practica\Practica\obj\Debug\netstandard2.0\Practica.csproj.GenerateResource.cache
@@ -48,3 +47,4 @@ C:\Movil\Cinema\Practica\Practica\obj\Debug\netstandard2.0\Practica.csproj.CopyC
 C:\Movil\Cinema\Practica\Practica\obj\Debug\netstandard2.0\Practica.dll
 C:\Movil\Cinema\Practica\Practica\obj\Debug\netstandard2.0\ref\Practica.dll
 C:\Movil\Cinema\Practica\Practica\obj\Debug\netstandard2.0\Practica.pdb
+C:\Movil\Cinema\Practica\Practica\obj\Debug\netstandard2.0\Practica.csprojAssemblyReference.cache

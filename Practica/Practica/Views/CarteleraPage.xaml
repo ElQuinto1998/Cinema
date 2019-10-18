@@ -25,10 +25,10 @@
                                     <ColumnDefinition Width="*" />
                                 </Grid.ColumnDefinitions>
                                 <Image Grid.RowSpan="2"
-                           Source="{Binding Imagen}"
-                           Aspect="AspectFill"
-                           HeightRequest="60"
-                           WidthRequest="60" />
+                                  Source="dog.png" 
+                                       HeightRequest="60"
+                                       WidthRequest="60" >
+                                </Image>
                                 <Label Grid.Column="1"
                            Text="{Binding Nombre}"
                            FontAttributes="Bold" />

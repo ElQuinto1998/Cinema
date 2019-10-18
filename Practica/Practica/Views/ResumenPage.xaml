@@ -21,9 +21,12 @@
                         <ColumnDefinition Width="*" />
                         <ColumnDefinition Width="*" />
                     </Grid.ColumnDefinitions>
-                    <Image Source="{Binding Imagen}"
-                        Grid.Row="2"
-                           Grid.Column="2"/>
+                    <Image Grid.RowSpan="2"
+                           Grid.Column="2"
+                                  Source="dog.png" 
+                                       HeightRequest="35"
+                                       WidthRequest="35" >
+                    </Image>
                     <Label Grid.RowSpan="3"
                            Text="{i18n:Translate Pelicula}"
                            FontAttributes="Bold" />

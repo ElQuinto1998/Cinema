@@ -1032,3 +1032,6 @@ C:\Movil\Cinema\Practica\Practica.Android\obj\Debug\90\stamp\_CopyPdbFiles.stamp
 C:\Movil\Cinema\Practica\Practica.Android\obj\Debug\90\stamp\_GenerateJavaStubs.stamp
 C:\Movil\Cinema\Practica\Practica.Android\obj\Debug\90\stamp\_GeneratePackageManagerJava.stamp
 C:\Movil\Cinema\Practica\Practica.Android\obj\Debug\90\stamp\_ResolveLibraryProjectImports.stamp
+C:\Movil\Cinema\Practica\Practica.Android\obj\Debug\90\res\drawable\dog.png
+C:\Movil\Cinema\Practica\Practica.Android\obj\Debug\90\res\drawable\logo.jpg
+C:\Movil\Cinema\Practica\Practica.Android\obj\Debug\90\res\drawable\login.png
