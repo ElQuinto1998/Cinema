@@ -8,6 +8,7 @@ using System.Threading.Tasks;
 
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
+using Practica.Resourses;
 
 namespace Practica.Views
 {
@@ -34,7 +35,7 @@ namespace Practica.Views
 
         private async void Button_Clicked(object sender, EventArgs e)
         {
-                await DisplayAlert("Genial!", "La reserva se ha generado correctamente", "Ok");
+                await DisplayAlert(AppResources.Genial, AppResources.La_reserva_se_ha_generado_correctamente, "Ok");
         }
     }
     

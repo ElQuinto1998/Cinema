@@ -120,26 +120,77 @@
   <data name="Bienvenido" xml:space="preserve">
     <value>Bienvenido</value>
   </data>
+  <data name="Campos requeridos" xml:space="preserve">
+    <value>Campos requeridos</value>
+  </data>
+  <data name="Cantidad" xml:space="preserve">
+    <value>Cantidad</value>
+  </data>
   <data name="Cantidad a comprar" xml:space="preserve">
     <value>Cantidad a comprar</value>
   </data>
   <data name="Cartelera" xml:space="preserve">
     <value>Cartelera</value>
   </data>
+  <data name="Cinema" xml:space="preserve">
+    <value>Cinema</value>
+  </data>
+  <data name="Ciudad" xml:space="preserve">
+    <value>Ciudad</value>
+  </data>
   <data name="Contraseña" xml:space="preserve">
     <value>Contraseña</value>
+  </data>
+  <data name="Fecha" xml:space="preserve">
+    <value>Fecha</value>
   </data>
   <data name="Finalizar compra" xml:space="preserve">
     <value>Finalizar compra</value>
   </data>
+  <data name="Funcion" xml:space="preserve">
+    <value>Funcion</value>
+  </data>
   <data name="Funciones" xml:space="preserve">
     <value>Funciones</value>
+  </data>
+  <data name="Genial" xml:space="preserve">
+    <value>Genial</value>
+  </data>
+  <data name="Ingresa cantidad de boletas" xml:space="preserve">
+    <value>Ingresa cantidad de boletas</value>
   </data>
   <data name="Ingresar" xml:space="preserve">
     <value>Ingresar</value>
   </data>
+  <data name="La cantidad minima es uno" xml:space="preserve">
+    <value>La cantidad minima es one</value>
+  </data>
+  <data name="La reserva se ha generado correctamente" xml:space="preserve">
+    <value>La reserva se ha generado correctamente</value>
+  </data>
+  <data name="No estas autorizado" xml:space="preserve">
+    <value>No estas autorizado</value>
+  </data>
+  <data name="Pelicula" xml:space="preserve">
+    <value>Pelicula</value>
+  </data>
+  <data name="Precio" xml:space="preserve">
+    <value>Precio</value>
+  </data>
   <data name="Resumen compra" xml:space="preserve">
     <value>Resumen compra</value>
+  </data>
+  <data name="Sala" xml:space="preserve">
+    <value>Sala</value>
+  </data>
+  <data name="Tiquetes" xml:space="preserve">
+    <value>Tiquetes</value>
+  </data>
+  <data name="Titulo" xml:space="preserve">
+    <value>Titulo</value>
+  </data>
+  <data name="Total a pagar" xml:space="preserve">
+    <value>Total a pagar</value>
   </data>
   <data name="Usuario" xml:space="preserve">
     <value>Usuario</value>

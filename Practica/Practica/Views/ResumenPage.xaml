@@ -25,11 +25,11 @@
                         Grid.Row="2"
                            Grid.Column="2"/>
                     <Label Grid.RowSpan="3"
-                           Text="Pelicula"
+                           Text="{i18n:Translate Pelicula}"
                            FontAttributes="Bold" />
                     <Label Grid.Row="2"
                            Grid.Column="0"
-                           Text="Titulo: "
+                           Text="{i18n:Translate Titulo}"
                            VerticalOptions="Start" />
                     <Label Grid.Row="2"
                            Grid.Column="1"
@@ -37,7 +37,7 @@
                            VerticalOptions="End" />
                     <Label Grid.Row="3"
                            Grid.Column="0"
-                           Text="Fecha: "
+                           Text="{i18n:Translate Fecha}"
                            VerticalOptions="Start" />
                     <Label Grid.Row="3"
                            Grid.Column="1"
@@ -59,11 +59,11 @@
                         <ColumnDefinition Width="*" />
                     </Grid.ColumnDefinitions>
                     <Label Grid.RowSpan="3"
-                           Text="Funcion"
+                           Text="{i18n:Translate Funcion}"
                            FontAttributes="Bold" />
                     <Label Grid.Row="2"
                            Grid.Column="0"
-                           Text="Cinema: "
+                           Text="{i18n:Translate Cinema}"
                            VerticalOptions="Start" />
                     <Label Grid.Row="2"
                            Grid.Column="1"
@@ -71,7 +71,7 @@
                            VerticalOptions="End" />
                     <Label Grid.Row="3"
                            Grid.Column="0"
-                           Text="Sala: "
+                           Text="{i18n:Translate Sala}"
                            VerticalOptions="Start" />
                     <Label Grid.Row="3"
                            Grid.Column="1"
@@ -79,7 +79,7 @@
                            VerticalOptions="End" />
                     <Label Grid.Row="4"
                            Grid.Column="0"
-                           Text="Ciudad: "
+                           Text="{i18n:Translate Ciudad}"
                            VerticalOptions="Start" />
                     <Label Grid.Row="4"
                            Grid.Column="1"
@@ -101,11 +101,11 @@
                         <ColumnDefinition Width="*" />
                     </Grid.ColumnDefinitions>
                     <Label Grid.RowSpan="3"
-                           Text="Tiquetes"
+                           Text="{i18n:Translate Tiquetes}"
                            FontAttributes="Bold" />
                     <Label Grid.Row="2"
                            Grid.Column="0"
-                           Text="Precio: "
+                           Text="{i18n:Translate Precio}"
                            VerticalOptions="Start" />
                     <Label Grid.Row="2"
                            Grid.Column="1"
@@ -113,7 +113,7 @@
                            VerticalOptions="End" />
                     <Label Grid.Row="3"
                            Grid.Column="0"
-                           Text="Cantidad: "
+                           Text="{i18n:Translate Cantidad}"
                            VerticalOptions="Start" />
                     <Label Grid.Row="3"
                            Grid.Column="1"
@@ -121,7 +121,7 @@
                            VerticalOptions="End" />
                     <Label Grid.Row="4"
                            Grid.Column="0"
-                           Text="Total a pagar: "
+                           Text="{i18n:Translate Total a pagar}"
                             FontAttributes="Bold"
                            VerticalOptions="Start" />
                     <Label Grid.Row="4"

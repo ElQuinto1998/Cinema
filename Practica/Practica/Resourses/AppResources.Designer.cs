@@ -70,6 +70,24 @@ namespace Practica.Resourses {
         }
         
         /// <summary>
+        ///   Busca una cadena traducida similar a Required fields.
+        /// </summary>
+        internal static string Campos_requeridos {
+            get {
+                return ResourceManager.GetString("Campos requeridos", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Count.
+        /// </summary>
+        internal static string Cantidad {
+            get {
+                return ResourceManager.GetString("Cantidad", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Busca una cadena traducida similar a Quantity to buy.
         /// </summary>
         internal static string Cantidad_a_comprar {
@@ -88,11 +106,38 @@ namespace Practica.Resourses {
         }
         
         /// <summary>
+        ///   Busca una cadena traducida similar a Cinema.
+        /// </summary>
+        internal static string Cinema {
+            get {
+                return ResourceManager.GetString("Cinema", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a City.
+        /// </summary>
+        internal static string Ciudad {
+            get {
+                return ResourceManager.GetString("Ciudad", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Busca una cadena traducida similar a Password.
         /// </summary>
         internal static string Contraseña {
             get {
                 return ResourceManager.GetString("Contraseña", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Date.
+        /// </summary>
+        internal static string Fecha {
+            get {
+                return ResourceManager.GetString("Fecha", resourceCulture);
             }
         }
         
@@ -106,11 +151,38 @@ namespace Practica.Resourses {
         }
         
         /// <summary>
+        ///   Busca una cadena traducida similar a Function.
+        /// </summary>
+        internal static string Funcion {
+            get {
+                return ResourceManager.GetString("Funcion", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Busca una cadena traducida similar a Functions.
         /// </summary>
         internal static string Funciones {
             get {
                 return ResourceManager.GetString("Funciones", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Great.
+        /// </summary>
+        internal static string Genial {
+            get {
+                return ResourceManager.GetString("Genial", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Enter amount of tickets.
+        /// </summary>
+        internal static string Ingresa_cantidad_de_boletas {
+            get {
+                return ResourceManager.GetString("Ingresa cantidad de boletas", resourceCulture);
             }
         }
         
@@ -124,11 +196,92 @@ namespace Practica.Resourses {
         }
         
         /// <summary>
+        ///   Busca una cadena traducida similar a The minimum quantity is one.
+        /// </summary>
+        internal static string La_cantidad_minima_es_uno {
+            get {
+                return ResourceManager.GetString("La cantidad minima es uno", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a The reservation was generated successfully.
+        /// </summary>
+        internal static string La_reserva_se_ha_generado_correctamente {
+            get {
+                return ResourceManager.GetString("La reserva se ha generado correctamente", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Not authorized.
+        /// </summary>
+        internal static string No_estas_autorizado {
+            get {
+                return ResourceManager.GetString("No estas autorizado", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Movie.
+        /// </summary>
+        internal static string Pelicula {
+            get {
+                return ResourceManager.GetString("Pelicula", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Price.
+        /// </summary>
+        internal static string Precio {
+            get {
+                return ResourceManager.GetString("Precio", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Busca una cadena traducida similar a Purchase Summary.
         /// </summary>
         internal static string Resumen_compra {
             get {
                 return ResourceManager.GetString("Resumen compra", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Room.
+        /// </summary>
+        internal static string Sala {
+            get {
+                return ResourceManager.GetString("Sala", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Tickets.
+        /// </summary>
+        internal static string Tiquetes {
+            get {
+                return ResourceManager.GetString("Tiquetes", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Title.
+        /// </summary>
+        internal static string Titulo {
+            get {
+                return ResourceManager.GetString("Titulo", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Total to pay.
+        /// </summary>
+        internal static string Total_a_pagar {
+            get {
+                return ResourceManager.GetString("Total a pagar", resourceCulture);
             }
         }
         

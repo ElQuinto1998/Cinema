@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
+using Practica.Resourses;
 
 namespace Practica.Views
 {
@@ -37,13 +38,13 @@ namespace Practica.Views
                 }
                 else
                 {
-                    await DisplayAlert("Alerta", "La cantidad minima es 1", "Ok");
+                    await DisplayAlert("Ops!", AppResources.La_cantidad_minima_es_uno, "Ok");
                 }
 
             }
             else
             {
-                await DisplayAlert("Ciudado", "Ingresa cantidad de boletas", "Ok");
+                await DisplayAlert("Ops!", AppResources.Cantidad_a_comprar, "Ok");
             }
 
             

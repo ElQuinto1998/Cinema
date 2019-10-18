@@ -7,7 +7,7 @@
              mc:Ignorable="d"
              x:Class="Practica.Views.loginPage">
     <ContentPage.Content>
-        <StackLayout Orientation="Vertical" Padding="20" Spacing="15">  
+        <StackLayout Orientation="Vertical" Padding="20" Spacing="15">
             <BoxView HeightRequest="3"/>
             <Label Text="{i18n:Translate Bienvenido}" HorizontalOptions="Center" VerticalOptions="Center"/>
             <Frame BackgroundColor="#BF043055" HasShadow="False">
@@ -25,7 +25,7 @@
             <Button Text="{i18n:Translate Ingresar}" TextColor="White"  
                     FontAttributes="Bold" FontSize="Large" HorizontalOptions="FillAndExpand"  
                     BackgroundColor="#088da5" 
-                    Clicked="login"/>  
-        </StackLayout>  
+                    Clicked="login"/>
+        </StackLayout>
     </ContentPage.Content>
 </ContentPage>

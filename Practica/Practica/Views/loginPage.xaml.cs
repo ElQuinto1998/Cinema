@@ -8,6 +8,7 @@ using System.Threading.Tasks;
 
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
+using Practica.Resourses;
 
 namespace Practica.Views
 {
@@ -36,13 +37,13 @@ namespace Practica.Views
                 }
                 else
                 {
-                    await DisplayAlert("Ops!", "No estas autorizado", "OK");
+                    await DisplayAlert("Ops!", AppResources.No_estas_autorizado, "OK");
                 }
 
             }
             else
             {
-                await DisplayAlert("Ops!", "Campos requeridos", "OK");
+                await DisplayAlert("Ops!", AppResources.Campos_requeridos, "OK");
             }
         }
     }
